@@ -1,0 +1,131 @@
+[2025-09-03 14:27:20] [INFO] Utils - [TestNG] Running:
+  C:\Users\hithu\eclipse practice\AutomationPractice\testng.xml
+
+[2025-09-03 14:27:20] [INFO] PurchaseTest - Starting browser...
+[2025-09-03 14:27:23] [INFO] PurchaseTest - Browser launched successfully
+[2025-09-03 14:27:23] [INFO] PurchaseTest - Starting test: Purchase Flow Test
+[2025-09-03 14:27:23] [INFO] PurchaseTest - Selecting iPhone from Homepage
+[2025-09-03 14:27:53] [INFO] Utils - [TestNG] Running:
+  C:\Users\hithu\eclipse practice\AutomationPractice\testng.xml
+
+[2025-09-03 14:27:53] [INFO] PurchaseTest - Starting browser...
+[2025-09-03 14:27:55] [INFO] PurchaseTest - Browser launched successfully
+[2025-09-03 14:27:55] [INFO] PurchaseTest - Starting test: Purchase Flow Test
+[2025-09-03 14:27:55] [INFO] PurchaseTest - Selecting iPhone from Homepage
+[2025-09-03 14:28:02] [INFO] Utils - [TestNG] Running:
+  C:\Users\hithu\eclipse practice\AutomationPractice\testng.xml
+
+[2025-09-03 14:28:02] [INFO] PurchaseTest - Starting browser...
+[2025-09-03 14:28:03] [INFO] PurchaseTest - Browser launched successfully
+[2025-09-03 14:28:03] [INFO] PurchaseTest - Starting test: Purchase Flow Test
+[2025-09-03 14:28:03] [INFO] PurchaseTest - Selecting iPhone from Homepage
+[2025-09-03 14:46:37] [INFO] Utils - [TestNG] Running:
+  C:\Users\hithu\eclipse practice\AutomationPractice\testng.xml
+
+[2025-09-03 14:46:37] [INFO] PurchaseTest - Starting browser...
+[2025-09-03 14:46:39] [INFO] PurchaseTest - Browser launched successfully
+[2025-09-03 14:47:49] [INFO] Utils - [TestNG] Running:
+  C:\Users\hithu\eclipse practice\AutomationPractice\testng.xml
+
+[2025-09-03 14:55:12] [INFO] Utils - [TestNG] Running:
+  C:\Users\hithu\eclipse practice\AutomationPractice\testng.xml
+
+[2025-09-03 14:55:12] [INFO] BaseTest - Launching Chrome browser
+[2025-09-03 14:55:15] [INFO] BaseTest - Navigated to Demoblaze homepage
+[2025-09-03 14:55:15] [INFO] BaseTest - Starting test: testPurchaseFlow
+[2025-09-03 14:55:15] [INFO] BaseTest - Starting Purchase Flow Test
+[2025-09-03 14:55:17] [INFO] BaseTest - Selected iPhone from homepage
+[2025-09-03 14:55:18] [INFO] BaseTest - Alert appeared: Product added
+[2025-09-03 14:55:19] [INFO] BaseTest - Navigated to cart and clicked Place Order
+[2025-09-03 14:55:20] [INFO] BaseTest - Entered checkout details and clicked Purchase
+[2025-09-03 14:55:21] [INFO] BaseTest - Purchase success message: Thank you for your purchase!
+Id: 7587821
+Amount: 0 USD
+Card Number: 5105 1051 0510 5100
+Name: Hitha
+Date: 3/8/2025
+OK
+[2025-09-03 14:55:21] [INFO] BaseTest - Purchase Flow Test completed successfully
+[2025-09-03 14:55:21] [INFO] BaseTest - Test PASSED: testPurchaseFlow
+[2025-09-03 14:55:21] [INFO] BaseTest - Browser closed successfully
+[2025-09-03 14:56:22] [INFO] Utils - [TestNG] Running:
+  C:\Users\hithu\eclipse practice\AutomationPractice\testng.xml
+
+[2025-09-03 14:56:22] [INFO] BaseTest - Launching Chrome browser
+[2025-09-03 14:56:25] [INFO] BaseTest - Navigated to Demoblaze homepage
+[2025-09-03 14:56:25] [INFO] BaseTest - Starting test: testPurchaseFlow
+[2025-09-03 14:56:25] [INFO] BaseTest - Starting Purchase Flow Test
+[2025-09-03 14:56:27] [INFO] BaseTest - Selected iPhone from homepage
+[2025-09-03 14:56:28] [INFO] BaseTest - Alert appeared: Product added
+[2025-09-03 14:56:29] [INFO] BaseTest - Navigated to cart and clicked Place Order
+[2025-09-03 14:56:40] [ERROR] BaseTest - Test FAILED: testPurchaseFlow
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Purchas']"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d902623795db6b2e11b123a2677c88b, findElement {using=xpath, value=//button[normalize-space()='Purchas']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\hithu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57680/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d902623795db6b2e11b123a2677c88b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.30.0.jar:?]
+	at pages.CheckoutPage.purchase(CheckoutPage.java:22) ~[test-classes/:?]
+	at tests.PurchaseTest.testPurchaseFlow(PurchaseTest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+[2025-09-03 14:56:40] [INFO] BaseTest - Browser closed successfully
+[2025-09-03 15:02:13] [INFO] BaseTest - Launching Chrome browser
+[2025-09-03 15:02:16] [INFO] BaseTest - Navigated to Demoblaze homepage
+[2025-09-03 15:02:16] [INFO] BaseTest - Starting test: testPurchaseFlow
+[2025-09-03 15:02:16] [INFO] BaseTest - Starting Purchase Flow Test
+[2025-09-03 15:02:18] [INFO] BaseTest - Selected iPhone from homepage
+[2025-09-03 15:02:20] [INFO] BaseTest - Alert appeared: Product added
+[2025-09-03 15:02:21] [INFO] BaseTest - Navigated to cart and clicked Place Order
+[2025-09-03 15:02:22] [INFO] BaseTest - Entered checkout details and clicked Purchase
+[2025-09-03 15:02:23] [INFO] BaseTest - Purchase success message: Thank you for your purchase!
+Id: 3481949
+Amount: 0 USD
+Card Number: 5105 1051 0510 5100
+Name: Hitha
+Date: 3/8/2025
+OK
+[2025-09-03 15:02:23] [INFO] BaseTest - Purchase Flow Test completed successfully
+[2025-09-03 15:02:23] [INFO] BaseTest - Test PASSED: testPurchaseFlow
+[2025-09-03 15:02:23] [INFO] BaseTest - Browser closed successfully
